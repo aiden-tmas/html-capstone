@@ -1,0 +1,194 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page-container button {
+  transition: 0.2s ease-in-out all;
+  border: none;
+  margin: none;
+  color: #555555;
+  border-radius: 5px;
+  padding: 1.25rem;
+  padding-inline: 1.75rem;
+  background-color: transparent;
+}
+.page-container button:hover {
+  cursor: pointer;
+}
+.page-container a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.2s ease-in-out all;
+}
+.page-container a:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.page-container .hero-container {
+  background: linear-gradient(45deg, rgb(168, 29, 132) 0, rgb(234, 57, 111) 100%);
+  display: flex;
+  flex-direction: column;
+}
+.page-container .hero-container button:hover {
+  background-color: rgba(233, 30, 98, 0.4274509804);
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+.page-container .hero-container .more-button button {
+  color: #ffffff;
+  transition: 0.2s ease-in-out all;
+  background-color: #e91e63;
+  border: none;
+  margin: none;
+  border-radius: 30px;
+}
+.page-container .hero-container .more-button button:hover {
+  background-color: #ce0045;
+  cursor: pointer;
+}
+.page-container .hero-container .navbar-container {
+  background-color: #ffffff;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-container .hero-container .navbar-container .navbar-left-column {
+  padding-left: 10rem;
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+}
+.page-container .hero-container .navbar-container .navbar-right-column {
+  width: 25%;
+  display: flex;
+}
+.page-container .page-body-container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.page-container .page-body-container .main-body-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: auto;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.page-container .page-body-container .main-body-wrapper a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.2s ease-in-out all;
+}
+.page-container .page-body-container .main-body-wrapper a:hover {
+  color: #b0b0b0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .page-body-container .main-body-wrapper .elements {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .page-body-container .main-body-wrapper .html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .page-body-container .main-body-wrapper .links {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  min-height: 200px;
+  width: 25%;
+  justify-content: center;
+}
+.page-container .footer-container {
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  min-height: 7rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #323437;
+  color: #ffffff;
+}
+.page-container .footer-container .footer-left-column {
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+}
+.page-container .footer-container .footer-right-column {
+  display: flex;
+}/*# sourceMappingURL=uncategorized.css.map */
