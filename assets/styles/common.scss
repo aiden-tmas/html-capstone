@@ -443,7 +443,8 @@ body {
 
     .footer-left-column {
       display: flex;
-      width: 8%;
+      flex-direction: row;
+      min-width: 150px;
       justify-content: space-between;
     }
 
