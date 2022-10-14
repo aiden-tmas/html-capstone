@@ -342,40 +342,65 @@ body {
         }
 
         a:hover {
-          color: rgb(151, 151, 151);
+          color: rgb(116, 116, 116);
         }
 
         @include flex-setup;
         min-height: 250px;
+
         .worth-a-thousand-words {
-          padding-inline: 50px;
+          padding-inline: 25px;
           @include section-formatting;
+          width: 25%;
+
           .top-tag {
-            color: #89229b;
+            a {
+              color: #89229b;
+            }
+
+            a:hover {
+              color: #d236ee;
+            }
           }
         }
 
         .elements {
           padding-inline: 50px;
           @include section-formatting;
+          width: 25%;
           .text {
             a {
               color: #23527c;
             }
+
             a:hover {
               color: #e91e63;
             }
           }
+
           .top-tag {
-            color: #00bcd4;
+            a {
+              color: #00bcd4;
+            }
+
+            a:hover {
+              color: #00ddfa;
+            }
           }
         }
 
         .more-tags {
           padding-inline: 50px;
           @include section-formatting;
+
           .top-tag {
-            color: #f44336;
+            a {
+              color: #f44336;
+            }
+
+            a:hover {
+              color: #ff877e;
+            }
           }
         }
       }

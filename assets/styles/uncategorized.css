@@ -33,7 +33,7 @@ body {
   transition: 0.2s ease-in-out all;
 }
 .page-container a:hover {
-  color: #b0b0b0;
+  color: #8a8a8a;
   cursor: pointer;
   transition: 0.2s ease-in-out all;
 }
@@ -41,6 +41,7 @@ body {
   background: linear-gradient(45deg, rgb(168, 29, 132) 0, rgb(234, 57, 111) 100%);
   display: flex;
   flex-direction: column;
+  min-height: 500px;
 }
 .page-container .hero-container button:hover {
   background-color: rgba(233, 30, 98, 0.4274509804);
@@ -58,6 +59,17 @@ body {
 .page-container .hero-container .more-button button:hover {
   background-color: #ce0045;
   cursor: pointer;
+}
+.page-container .hero-container .hero-body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  color: white;
+  font-size: 1.5rem;
 }
 .page-container .hero-container .navbar-container {
   background-color: #ffffff;
@@ -92,11 +104,17 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   height: auto;
-  width: 80%;
+  width: 96%;
   justify-content: center;
   align-items: center;
+  margin-top: -60px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .page-container .page-body-container .main-body-wrapper a {
   text-decoration: none;
@@ -104,9 +122,24 @@ body {
   transition: 0.2s ease-in-out all;
 }
 .page-container .page-body-container .main-body-wrapper a:hover {
-  color: #b0b0b0;
+  color: #8a8a8a;
   cursor: pointer;
   transition: 0.2s ease-in-out all;
+}
+.page-container .page-body-container .main-body-wrapper .top-tag {
+  font-size: 12px;
+}
+.page-container .page-body-container .main-body-wrapper .header {
+  font-size: 25px;
+  font-weight: 900;
+}
+.page-container .page-body-container .main-body-wrapper .text {
+  font-size: 14px;
+  font-weight: 100;
+  color: #999999;
+}
+.page-container .page-body-container .main-body-wrapper .footer {
+  font-size: 14px;
 }
 .page-container .page-body-container .main-body-wrapper .worth-a-thousand-words {
   height: 100%;
@@ -114,10 +147,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .top-tag a {
+  color: #89229b;
+}
+.page-container .page-body-container .main-body-wrapper .worth-a-thousand-words .top-tag a:hover {
+  color: #da8de8;
 }
 .page-container .page-body-container .main-body-wrapper .elements {
   height: 100%;
@@ -125,10 +186,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .elements .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .elements .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .elements .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .elements .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .elements .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .elements .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .elements .top-tag a {
+  color: #00bcd4;
+}
+.page-container .page-body-container .main-body-wrapper .elements .top-tag a:hover {
+  color: #45dcf0;
 }
 .page-container .page-body-container .main-body-wrapper .more-tags {
   height: 100%;
@@ -136,10 +225,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .top-tag a {
+  color: #f44336;
+}
+.page-container .page-body-container .main-body-wrapper .more-tags .top-tag a:hover {
+  color: #ff877e;
 }
 .page-container .page-body-container .main-body-wrapper .html {
   height: 100%;
@@ -147,10 +264,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .html .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .html .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .html .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .html .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .html .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .html .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .html .top-tag a {
+  color: #ff9800;
+}
+.page-container .page-body-container .main-body-wrapper .html .top-tag a:hover {
+  color: #ffc369;
 }
 .page-container .page-body-container .main-body-wrapper .links {
   height: 100%;
@@ -158,10 +303,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .links .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .links .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .links .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .links .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .links .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .links .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .links .top-tag a {
+  color: #e91e63;
+}
+.page-container .page-body-container .main-body-wrapper .links .top-tag a:hover {
+  color: #e96d96;
 }
 .page-container .page-body-container .main-body-wrapper .hello-world {
   height: 100%;
@@ -169,10 +342,38 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   min-height: 200px;
-  width: 25%;
+  width: 75%;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .top-tag {
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .footer {
+  padding-top: 10px;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .footer a {
+  font-weight: 900;
+  color: black;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .footer a:hover {
+  color: rgb(84, 84, 84);
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .top-tag a {
+  color: #4caf50;
+}
+.page-container .page-body-container .main-body-wrapper .hello-world .top-tag a:hover {
+  color: #88b788;
 }
 .page-container .footer-container {
   margin-top: auto;
@@ -184,9 +385,23 @@ body {
   background-color: #323437;
   color: #ffffff;
 }
+.page-container .footer-container a {
+  text-decoration: none;
+  color: #555555;
+  transition: 0.2s ease-in-out all;
+}
+.page-container .footer-container a:hover {
+  color: #8a8a8a;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.page-container .footer-container a {
+  color: #ffffff;
+}
 .page-container .footer-container .footer-left-column {
   display: flex;
-  width: 8%;
+  flex-direction: row;
+  min-width: 150px;
   justify-content: space-between;
 }
 .page-container .footer-container .footer-right-column {

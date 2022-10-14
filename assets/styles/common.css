@@ -299,17 +299,21 @@ body {
   color: black;
 }
 .page-container .page-body-container .third-section .body-sections a:hover {
-  color: rgb(151, 151, 151);
+  color: rgb(116, 116, 116);
 }
 .page-container .page-body-container .third-section .body-sections .worth-a-thousand-words {
-  padding-inline: 50px;
+  padding-inline: 25px;
   display: flex;
   width: 15%;
   height: 100%;
   flex-direction: column;
+  width: 25%;
 }
-.page-container .page-body-container .third-section .body-sections .worth-a-thousand-words .top-tag {
+.page-container .page-body-container .third-section .body-sections .worth-a-thousand-words .top-tag a {
   color: #89229b;
+}
+.page-container .page-body-container .third-section .body-sections .worth-a-thousand-words .top-tag a:hover {
+  color: #d236ee;
 }
 .page-container .page-body-container .third-section .body-sections .elements {
   padding-inline: 50px;
@@ -317,6 +321,7 @@ body {
   width: 15%;
   height: 100%;
   flex-direction: column;
+  width: 25%;
 }
 .page-container .page-body-container .third-section .body-sections .elements .text a {
   color: #23527c;
@@ -324,8 +329,11 @@ body {
 .page-container .page-body-container .third-section .body-sections .elements .text a:hover {
   color: #e91e63;
 }
-.page-container .page-body-container .third-section .body-sections .elements .top-tag {
+.page-container .page-body-container .third-section .body-sections .elements .top-tag a {
   color: #00bcd4;
+}
+.page-container .page-body-container .third-section .body-sections .elements .top-tag a:hover {
+  color: #00ddfa;
 }
 .page-container .page-body-container .third-section .body-sections .more-tags {
   padding-inline: 50px;
@@ -334,8 +342,11 @@ body {
   height: 100%;
   flex-direction: column;
 }
-.page-container .page-body-container .third-section .body-sections .more-tags .top-tag {
+.page-container .page-body-container .third-section .body-sections .more-tags .top-tag a {
   color: #f44336;
+}
+.page-container .page-body-container .third-section .body-sections .more-tags .top-tag a:hover {
+  color: #ff877e;
 }
 .page-container .page-body-container .fourth-section {
   color: white;
